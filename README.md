@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Git project focuses on testing different hate speech classifiers for multiple languages, including German, English, and Multilingual. The classifiers are provided through Hugging Face and include models from various sources. The project takes a simple CSV file with a "text" column as input and outputs separate CSV files for each classifier. Classifier as set to be bianry hate no hate at the moment.
+This project focuses on testing different hate speech classifiers for multiple languages, including German, English, and Multilingual. The classifiers are provided through Hugging Face and include models from various sources. The project takes a simple CSV file with a "text" column as input and outputs separate CSV files for each classifier. Classifier as set to be bianry hate no hate at the moment.
 
 ## Classifiers and URLs
 
