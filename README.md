@@ -24,26 +24,6 @@ This Git project focuses on testing different hate speech classifiers for multip
 
 - **Output:** Separate CSV files are generated for each classifier, containing the original text along with the classification results.
 
-## Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/hate-speech-classifier-evaluation.git
-   cd hate-speech-classifier-evaluation
-
-2. Set up your API key for the Google Jigsaw Classifier if applicable.
-
-3. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    
-4. Run the classifier evaluation script:
-
-    ```bash
-    python evaluate_classifiers.py --input_file input_data.csv --output_dir output_results/
-
 # Contribution
 Contributions are welcome!
 
