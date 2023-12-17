@@ -12,11 +12,10 @@ def run():
     input_file = DataLoader.load_file_csv("data/INPUT.csv")
 
     #set name to algorithm tested
-    name_output = 'XX.csv'
-
-    AlgosMulti.annotate_robaconfi(input_file, 'a.csv')
-    AlgosMulti.annotate_xlm_Roberta_Large(input_file,'b.csv')
-
+    name_output = 'XML_Roberta.csv'
+    
+    AlgosMulti.annotate_xlm_Roberta_Large(input_file, name_output)
+    
 
     #ENG
 
