@@ -23,7 +23,8 @@ class AlgosDE():
             analyze_request = {
                 'comment': {'text': element['text']},
                 'requestedAttributes': {'IDENTITY_ATTACK': {}},
-                'languages': ['de']
+                'languages': ['de'],
+                'doNotStore': True
             }
 
             try:
