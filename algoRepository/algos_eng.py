@@ -24,7 +24,8 @@ class AlgosENG():
             analyze_request = {
                 'comment': {'text': element['text']},
                 'requestedAttributes': {'IDENTITY_ATTACK': {}},
-                'languages': ['en']
+                'languages': ['en'],
+                'doNotStore': True
             }
 
             try:
